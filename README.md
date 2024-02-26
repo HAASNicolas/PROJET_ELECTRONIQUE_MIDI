@@ -1,3 +1,5 @@
 # PROJET_ELECTRONIQUE_MIDI
-## Sous-titre
-texte
+## Participants
+Lina Bachir
+Nicolas Haas
+Tanoh Koffi 
