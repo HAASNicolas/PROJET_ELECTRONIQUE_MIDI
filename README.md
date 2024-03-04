@@ -5,8 +5,9 @@
 * Tanoh Koffi 
 
 ## Commandes github
-*Sous window: Dans le répertoire faire clique droit 'ouvrir un git bach', puis aller dans le bon dossier (si c'est pas déjà le cas):
-*Sous linux: Ouvrir un terminal, puis aller dans le bon dossier. Par exemple :
+Sous window: Dans le répertoire faire clique droit 'ouvrir un git bach', puis aller dans le bon dossier (si c'est pas déjà le cas):
+
+Sous linux: Ouvrir un terminal, puis aller dans le bon dossier. Par exemple :
 ```
 cd Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/
 ```
