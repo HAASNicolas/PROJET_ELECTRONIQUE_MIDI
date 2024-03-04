@@ -6,6 +6,7 @@
 
 ## Commandes github
 Sous window: dans le répertoire faire clique droit 'ouvrir un git bach', puis aller dans le bon dossier (si c'est pas déjà le cas):
+
 Sous linux: ouvrir un terminal, aller dans le bon dossier, exemple :
 ```
 cd Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/
@@ -13,18 +14,17 @@ cd Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/
 
 Pour créer un nouveau répertoire git:
 ```
-git --global user.name "Prénom et/ou Nom"
-git --global user.email "Votre e-mail"
+git config --global user.name "Pseudo git ou Nom Prénom"
+git config --global user.email "Votre e-mail"
 ```
 ```
 ssh-keygen
 ```
-Copier l'adresse /c/....pub (example: /c/Users/user_name/.ssh/id_ed25519.pub)
+Faites Entrer plusieurs fois, puis copier l'adresse /c/....pub (example: /c/Users/user_name/.ssh/id_ed25519.pub)
 ```
 cat adresse_pub_copié_ci_dessus
 ```
-Copier ssh key
-Ajouter ssh key on github.com -> setting -> sshkey
+Si git clone ci-dessous ne marche pas: Copier ssh key, puis Ajouter ssh key sur github.com -> setting -> sshkey
 ```
 git clone adresse_du_git
 ```
