@@ -1,8 +1,8 @@
 # PROJET_ELECTRONIQUE_MIDI
 ## Participants
-Lina Bachir
-Nicolas Haas
-Tanoh Koffi 
+* Lina Bachir
+* Nicolas Haas
+* Tanoh Koffi 
 
 ## Commandes github
 Ouvrir un terminal, aller dans le bon dossier, exemple :
