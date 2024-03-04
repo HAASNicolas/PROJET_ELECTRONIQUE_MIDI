@@ -1,0 +1,3 @@
+-recevoir en entrée plusieurs sons et émettre en sortie un seul son
+- Contrôler le volume du son, la panoramique, le gain 
+-
