@@ -21,7 +21,8 @@ Testez
 ```
 git clone adresse_du_git
 ```
-Si git clone ci-dessus ne marche pas:
+Si git clone marche: Vous avez fini !
+Sinon si git clone ne marche pas:
 ```
 ssh-keygen
 ```
