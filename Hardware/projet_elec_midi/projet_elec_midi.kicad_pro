@@ -235,7 +235,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -342,6 +342,14 @@
     [
       "a77986c2-c92f-4516-af11-0d6fbb13ce70",
       "potentiometer linear"
+    ],
+    [
+      "7c737a7d-da8e-43e6-bcb3-bc105d8549eb",
+      "STM32"
+    ],
+    [
+      "cc3b9707-24d7-4137-a3e1-4c323a9a4a17",
+      "Alimentation"
     ]
   ],
   "text_variables": {}
