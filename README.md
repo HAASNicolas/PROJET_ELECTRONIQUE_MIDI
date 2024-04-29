@@ -54,8 +54,8 @@ git add .
 git commit -m "Message à remplacer"
 git push
 ```
-##Rapport projet
-##Introduction
+#Rapport projet
+*Introduction
 
 Notre projet consiste en la création d’un contrôleur MIDI, un dispositif électronique conçu pour interagir avec divers instruments et logiciels musicaux. Le contrôleur comporte une variété de boutons, de potentiomètres et de curseurs, offrant un contrôle précis et intuitif de nombreux aspects de la production musicale, tels que le volume, les effets, et la modulation.
 
