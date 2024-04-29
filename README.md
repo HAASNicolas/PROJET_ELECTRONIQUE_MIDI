@@ -2,7 +2,15 @@
 ## Participants
 * Lina Bachir
 * Nicolas Haas
-* Tanoh Koffi 
+* Tanoh Koffi
+
+## Code C
+```C
+int main (void)
+{
+  printf(C);
+}
+```
 
 ## Commandes github
 Sous window: Dans le répertoire faire clique droit 'ouvrir un git bach', puis aller dans le bon dossier (si c'est pas déjà le cas):
