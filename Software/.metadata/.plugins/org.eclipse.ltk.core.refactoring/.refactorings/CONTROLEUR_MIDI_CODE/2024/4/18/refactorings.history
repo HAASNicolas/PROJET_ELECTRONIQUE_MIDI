@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CONTROLEUR_MIDI_CODE/Core/Inc/Analogue.&apos; to &apos;Analogue.h&apos;" description="Rename resource &apos;Analogue.&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/Analogue." name="Analogue.h" stamp="1714402758472" updateReferences="true"/>
+</session>

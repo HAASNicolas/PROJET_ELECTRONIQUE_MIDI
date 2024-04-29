@@ -1,0 +1,2 @@
+../Core/Src/MIDI_CONTROLLER.c:9:6:setup	4	static
+../Core/Src/MIDI_CONTROLLER.c:10:6:loop	8	static
