@@ -65,12 +65,12 @@ Le développement de ce contrôleur MIDI inclut la mise en œuvre d’une carte 
 
 ## objectif
 
-L'objectif de notre projet est de concevoir un contrôleur MIDI fonctionnel et  intuitif, permettant aux musiciens et aux producteurs de gérer et de manipuler leurs compositions musicales de manière fluide. 
+L'objectif de notre projet est de concevoir un contrôleur MIDI fonctionnel et intuitif, permettant aux musiciens et aux producteurs de gérer et de manipuler leurs compositions musicales de manière fluide. 
 Nous cherchons à créer un dispositif qui permette un contrôle précis et efficace des éléments clés de la production musicale, tels que le volume, les effets, et la modulation.
 
 * Implémentation du MIDI classique
 
-  Nous visons à garantir une compatibilité universelle avec beaucoup d'instruments et de logiciels musicaux en adoptant le protocole MIDI standard. Notre contrôleur sera conçu pour envoyer et recevoir des messages MIDI de façon fiable, facilitant ainsi son intégration dans diverses configurations musicales.
+  Nous voulons une compatibilité universelle avec beaucoup d'instruments et de logiciels musicaux en adoptant le protocole MIDI standard. Notre contrôleur sera conçu pour envoyer et recevoir des messages MIDI de façon fiable, facilitant ainsi son intégration dans diverses configurations musicales.
 
 * Support du MIDI USB via USB-C
   Notre objectif est d'incorporer une interface MIDI moderne utilisant un port USB-C, permettant une connexion simple et efficace avec des ordinateurs et autres appareils prenant en charge l'USB. Cela englobera la transmission de données MIDI ainsi que l'alimentation du contrôleur.
@@ -80,7 +80,7 @@ Nous cherchons à créer un dispositif qui permette un contrôle précis et effi
 
 * Inspirations et benchmarking
 
-Nous nous baserons sur des modèles de référence tels que l'Intech Studio PBF4 pour sa modularité, le Faderfox MX12 pour l'ergonomie des contrôles, l'AKAI MIDIMIX pour sa disposition efficace, et le Novation Launchcontrol XL pour ses capacités d'extension. Ces produits nous serviront de guide dans le développement de notre contrôleurNous nous baserons sur des modèles de référence tels que l'Intech Studio PBF4 pour sa modularité, le Faderfox MX12 pour l'ergonomie des contrôles et l'AKAI MIDIMIX pour sa disposition efficace. Ces produits nous serviront de guide dans le développement de notre contrôleur
+Nous nous baserons sur des modèles de référence tels que l'Intech Studio PBF4, le Faderfox MX12 pour l'ergonomie et l'AKAI MIDIMIX pour sa disposition efficace. Ces produits nous serviront de guide dans le développement de notre contrôleurNous nous baserons sur des modèles de référence tels que l'Intech Studio PBF4 pour sa modularité, le Faderfox MX12 pour l'ergonomie des contrôles et l'AKAI MIDIMIX pour sa disposition efficace. Ces produits nous serviront de guide dans le développement de notre contrôleur
 
 
 * cahier des charges 
