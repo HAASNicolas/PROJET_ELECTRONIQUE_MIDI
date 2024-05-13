@@ -70,15 +70,22 @@ Nous cherchons à créer un dispositif qui permette un contrôle précis et effi
 
 * Implémentation du MIDI classique
 
+
   Nous voulons une compatibilité universelle avec beaucoup d'instruments et de logiciels musicaux en adoptant le protocole MIDI standard. Notre contrôleur sera conçu pour envoyer et recevoir des messages MIDI de façon fiable, facilitant ainsi son intégration dans diverses configurations musicales.
 
 * Support du MIDI USB via USB-C
+
+
   Notre objectif est d'incorporer une interface MIDI moderne utilisant un port USB-C, permettant une connexion simple et efficace avec des ordinateurs et autres appareils prenant en charge l'USB. Cela englobera la transmission de données MIDI ainsi que l'alimentation du contrôleur.
 
 * Autonomie sur batterie rechargeable
+
+
+
   Nous planifions de développer un contrôleur fonctionnant sur une batterie rechargeable pour maximiser la portabilité et la flexibilité d'utilisation. La batterie sera rechargeable via USB-C, offrant ainsi aux utilisateurs la possibilité de jouer sans être dépendant d'une source d'alimentation fixe.
 
 * Inspirations et benchmarking
+
 
 Nous nous baserons sur des modèles de référence tels que l'Intech Studio PBF4, le Faderfox MX12 pour l'ergonomie et l'AKAI MIDIMIX pour sa disposition efficace. Ces produits nous serviront de guide dans le développement de notre contrôleur.
 
