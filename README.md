@@ -65,6 +65,7 @@ Le développement de ce contrôleur MIDI inclut la mise en œuvre d’une carte 
 
 * objectif
 
+L'objectif de notre projet est de concevoir un contrôleur MIDI fonctionnel et  intuitif, permettant aux musiciens et aux producteurs de gérer et de manipuler leurs compositions musicales de manière fluide. 
 Nous cherchons à créer un dispositif qui permette un contrôle précis et efficace des éléments clés de la production musicale, tels que le volume, les effets, et la modulation.
 
 * cahier des charges 
