@@ -915,3 +915,44 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2024-05-13 13:40:08.691 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  /home/eleve/Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/Software/CONTROLEUR_MIDI_CODE/.project
+Command-line arguments:  -os linux -ws gtk -arch x86_64 /home/eleve/Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/Software/CONTROLEUR_MIDI_CODE/.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-05-13 13:40:24.483
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-05-13 13:40:24.485
+!MESSAGE Log4j2 initialized with config file /home/eleve/Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/Software/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-05-13 13:40:28.721
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-05-13 13:40:31.880
+!MESSAGE Indexed 'CONTROLEUR_MIDI_CODE' (33 sources, 95 headers) in 3,19 sec: 7 896 declarations; 59 434 references; 0 unresolved inclusions; 1 syntax errors; 6 unresolved names (0,0089 %)
+!SESSION 2024-05-13 17:31:58.579 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  /home/eleve/Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/Software/CONTROLEUR_MIDI_CODE/.project
+Command-line arguments:  -os linux -ws gtk -arch x86_64 /home/eleve/Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/Software/CONTROLEUR_MIDI_CODE/.project
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-05-13 17:32:01.733
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-05-13 17:32:05.100
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-05-13 17:32:05.101
+!MESSAGE Log4j2 initialized with config file /home/eleve/Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/Software/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-05-13 17:32:09.642
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-05-13 17:32:12.696
+!MESSAGE Indexed 'CONTROLEUR_MIDI_CODE' (34 sources, 96 headers) in 3,09 sec: 7 920 declarations; 59 737 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,003 %)
