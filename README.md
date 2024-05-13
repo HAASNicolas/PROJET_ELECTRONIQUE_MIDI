@@ -80,7 +80,7 @@ Nous cherchons à créer un dispositif qui permette un contrôle précis et effi
 
 * Inspirations et benchmarking
 
-Nous nous baserons sur des modèles de référence tels que l'Intech Studio PBF4, le Faderfox MX12 pour l'ergonomie et l'AKAI MIDIMIX pour sa disposition efficace. Ces produits nous serviront de guide dans le développement de notre contrôleurNous nous baserons sur des modèles de référence tels que l'Intech Studio PBF4 pour sa modularité, le Faderfox MX12 pour l'ergonomie des contrôles et l'AKAI MIDIMIX pour sa disposition efficace. Ces produits nous serviront de guide dans le développement de notre contrôleur
+Nous nous baserons sur des modèles de référence tels que l'Intech Studio PBF4, le Faderfox MX12 pour l'ergonomie et l'AKAI MIDIMIX pour sa disposition efficace. Ces produits nous serviront de guide dans le développement de notre contrôleur.
 
 
 * cahier des charges 
