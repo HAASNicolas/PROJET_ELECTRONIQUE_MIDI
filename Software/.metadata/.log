@@ -956,3 +956,22 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 /home/eleve/Documents/gi
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-05-13 17:32:12.696
 !MESSAGE Indexed 'CONTROLEUR_MIDI_CODE' (34 sources, 96 headers) in 3,09 sec: 7 920 declarations; 59 737 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,003 %)
+!SESSION 2024-05-27 13:44:12.942 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  /home/eleve/Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/Software/CONTROLEUR_MIDI_CODE/.cproject
+Command-line arguments:  -os linux -ws gtk -arch x86_64 /home/eleve/Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/Software/CONTROLEUR_MIDI_CODE/.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-05-27 13:44:19.566
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-05-27 13:44:19.567
+!MESSAGE Log4j2 initialized with config file /home/eleve/Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/Software/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-05-27 13:44:24.036
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-05-27 13:44:26.879
+!MESSAGE Indexed 'CONTROLEUR_MIDI_CODE' (34 sources, 96 headers) in 2,86 sec: 7 921 declarations; 59 744 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,003 %)
