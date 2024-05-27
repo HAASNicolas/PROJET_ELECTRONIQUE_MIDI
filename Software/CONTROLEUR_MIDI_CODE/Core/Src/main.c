@@ -125,16 +125,16 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 	while (1)
 	{
-		uint8_t data = 0x55;
+		/*uint8_t data = 0x1A;
 		HAL_HalfDuplex_EnableTransmitter(&huart1);
 		HAL_UART_Transmit(&huart1,&data, 1, HAL_MAX_DELAY);
-		HAL_Delay(1);
-//		Analogue_process();
-
-		//		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin,0);
-		//		HAL_Delay(100);
-		//		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin,1);
-		//		HAL_Delay(100);
+		HAL_Delay(1);*/
+		Analogue_process();
+/*
+		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin,0);
+		HAL_Delay(10);
+		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin,1);
+		HAL_Delay(10);*/
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

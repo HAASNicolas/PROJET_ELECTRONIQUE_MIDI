@@ -9,15 +9,12 @@
 #include <midi.h>
 extern UART_HandleTypeDef huart1;
 
-void send_new_value(int num_pot, uint16_t new_value) {
+void send_new_value(uint8_t num_pot, uint8_t new_value) {
 	// Envoyer en MIDI via l'UART
-	uint8_t id = 254;
+	uint8_t id = 0x1A;
 	HAL_UART_Transmit(&huart1, &id, 1, HAL_MAX_DELAY);
-	HAL_Delay(100);/*
-	HAL_UART_Transmit(&huart1, &num_pot, 1, 1000);
-	HAL_Delay(10);
-	HAL_UART_Transmit(&huart1, &new_value, 2, 1000);
-	HAL_Delay(10);*/
+	HAL_UART_Transmit(&huart1, &num_pot, 1, HAL_MAX_DELAY);
+	HAL_UART_Transmit(&huart1, &new_value, 1, HAL_MAX_DELAY);
 
 
 	// Envoyer en MIDI via l'USB

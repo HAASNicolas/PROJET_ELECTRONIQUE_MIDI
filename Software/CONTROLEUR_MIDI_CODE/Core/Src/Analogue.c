@@ -12,7 +12,7 @@ extern TIM_HandleTypeDef htim6;
 
 int adc_available = 0; // Indique si l'ADC à fini la conversion Analog->Digital
 uint16_t adc_tab[4];
-uint16_t values[32] = {0};
+uint8_t values[32] = {0};
 int sel = 0; // Sélection des 4 potentiomètres pour les MUX_Analogiques
 
 void Analogue_init(void)
@@ -34,13 +34,13 @@ void Analogue_process(void)
 		printf("%u\t", sel);
 		for(int itr = 0 ; itr < 4 ; itr++) // Affiche les valeurs numérique des 4 potentiomètres
 		{
-			int numero_potard = itr + (sel * 4);
-			send_new_value(numero_potard, values[numero_potard]); // envoyer la nouvelle valeur via l'UART et l'USB
-			if (values[numero_potard] != adc_tab[itr]) { // Regarde si la position du potentiomètre a changée
-				values[numero_potard] = adc_tab[itr]; // Enregistre la nouvelle valeur
-				printf("e");
+			uint8_t numero_potard = itr + (sel * 4);
+			uint8_t new_value = adc_tab[itr]/32;
+			printf("%u\t", new_value);
+			if (values[numero_potard] != new_value) { // Regarde si la position du potentiomètre a changée
+				values[numero_potard] = new_value; // Enregistre la nouvelle valeur
+				send_new_value(numero_potard, new_value); // envoyer la nouvelle valeur via l'UART et l'USB
 			}
-			printf("%u\t", adc_tab[itr]);
 		}
 		printf("\r\n");
 
