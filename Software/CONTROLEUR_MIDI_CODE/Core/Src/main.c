@@ -67,7 +67,7 @@ void SystemClock_Config(void);
 
 int __io_putchar(int chr)
 {
-	HAL_UART_Transmit(&huart2, (uint8_t*) &chr, 1, HAL_MAX_DELAY);
+	HAL_UART_Transmit(&huart1, (uint8_t*) &chr, 1, HAL_MAX_DELAY);
 
 	return chr;
 }

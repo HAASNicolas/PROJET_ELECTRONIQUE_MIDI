@@ -1,0 +1,4 @@
+../Core/Src/Analogue.c:18:6:Analogue_init	8	static
+../Core/Src/Analogue.c:25:6:Analogue_irq_callback	4	static
+../Core/Src/Analogue.c:30:6:Analogue_process	16	static
+../Core/Src/Analogue.c:67:6:edit_sel_pots	8	static

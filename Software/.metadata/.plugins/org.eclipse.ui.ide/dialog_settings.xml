@@ -9,6 +9,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/eleve/Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/Software/test_midi"/>
+			<item value="/home/eleve/Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/Software/CONTROLEUR_MIDI_CODE"/>
 			<item value="/home/eleve/Documents/git_1A/PROJET_ELECTRONIQUE_MIDI/Software/Controller_MIDI"/>
 		</list>
 	</section>
