@@ -99,4 +99,5 @@ Nous cherchons à créer un dispositif qui permette un contrôle précis et effi
 Nous avons réussi à faire fonctionner la carte.
 
 Voici les valeurs que renvoient un des potentiomètres linéaire et un des potentiomètres rond. C'est valeurs doivent être comprise entre 0 et 127, car en MIDI on la code sur 7 bits.
-![plot](./Documentations/valeurs pot lineaire et rond.png)
+
+![alt text](Documentations/valeurs pot lineaire et rond.png)
