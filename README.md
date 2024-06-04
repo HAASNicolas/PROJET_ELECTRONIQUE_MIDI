@@ -95,6 +95,23 @@ Nous cherchons à créer un dispositif qui permette un contrôle précis et effi
 * projet global (shema):
 * shema bloc:
 
+## PCB 
+
+Dans cette partie de ce rapport, nous donnerons un aperçu complet de l'architecture et des composants du PCB de ce contrôleur MIDI.
+On cherchera donc ici à comprendre le rôle des composants sur ce PCB et leur disposition.
+Concernant le Microcontrôleur, ici le STM 32 KBTX, il est le centre du contrôleur MIDI. Son but ici est de gérer les entrées des boutons et potentiomètres, de traite ces informations et d’envoyer les messages MIDI appropriés via les interfaces MIDI ou USB.
+
+Quant aux Régulateurs de tension, ils assurent une tension stable pour alimenter les différents composants du circuit, par exemple, fournir 5V pour le microcontrôleur et 3.3V pour certains capteurs ou circuits.
+
+On a aussi utilisé des Condensateurs pour filtrer les signaux, déparasiter les lignes d'alimentation et stabiliser les tensions. Ils sont essentiels pour réduire le bruit électronique et maintenir la stabilité des signaux. Ils sont dispersés autour du microcontrôleur et près des régulateurs de tension, souvent à proximité des broches d'alimentation pour optimiser leur efficacité. De plus, avec les Résistances, on parviendra à Limiter le courant, ajuster les niveaux de tension et effectuer des fonctions pull-up/pull-down sur les lignes de signal, elles sont quant à elles Connectées en série avec les boutons et situées près du microcontrôleur pour les pull-ups/pull-downs.
+
+Le Connecteur MIDI utilisé ici va servir d’interface afin de connecter le contrôleur MIDI à d'autres dispositifs MIDI. Ce connecteur permet donc la communication des données MIDI. Un autre type de connecteur utilisé est le Connecteur USB qui va Permettre la connexion du contrôleur à un ordinateur pour la transmission de données MIDI et l'alimentation.
+
+Les Traces, Les lignes rouges et bleues sur le schéma représentent les connexions électriques entre les composants. Les rouges sont sur la couche supérieure du PCB, et les bleues sur la couche inférieure. Elles sont connectées entre les différentes couches du PCB à l’aide des Vias, qui assurent ainsi une interconnexion entre les couches du PCB. Les potentiomètres, eux, capturent les entrées de l'utilisateur. Chaque potentiomètre envoie en effet un signal spécifique au microcontrôleur.
+
+En outre, Le microcontrôleur central gère les entrées des boutons et les interfaces MIDI/USB. Les régulateurs de tension, condensateurs et résistances assurent la stabilité du circuit et les connecteurs MIDI et USB permettent la communication avec d'autres dispositifs MIDI et des ordinateurs.
+En résumé, lorsqu'on modifie la position d’un potentiomètre du contrôleur MIDI, le microcontrôleur détecte ce changement et identifie le potentiomètre en question. Il génère ensuite un message MIDI avec les informations appropriées (comme la note et la vélocité). Ce message est transmis soit via le connecteur MIDI DIN à d'autres appareils MIDI, soit via USB à un ordinateur.
+
 ## Résultats
 Nous avons réussi à faire fonctionner la carte.
 
