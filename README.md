@@ -142,6 +142,8 @@ On remarque que les curseurs sont espacés de 9 bits et d'une durée de 78us. Ce
 
 ## Code
 
+Voici le diagramme de notre code:
+
 ![Diagramme du code](Documentations/diagramme_code.png)
 
 ## Les difficultés rencontrées
