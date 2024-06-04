@@ -90,15 +90,18 @@ Nous cherchons à créer un dispositif qui permette un contrôle précis et effi
   Nous nous baserons sur des modèles de référence tels que l'Intech Studio PBF4, le Faderfox MX12 pour l'ergonomie et l'AKAI MIDIMIX pour sa disposition efficace. Ces produits nous serviront de guide dans le développement de notre contrôleur.
 
 
-* cahier des charges 
+* Cahier des charges:
 ![cahier des charges](Documentations/cahier_des_charges.jpeg)
-
-* projet global (shema):
-  
-* shema bloc:
 
 * Planning des séances
 ![planning](Documentations/planning.jpeg)
+
+* Schéma global du projet
+
+  ![Schéma global du projet](Documentations/schéma_global.png)
+  
+* schéma bloc:
+
 
 ## PCB 
 
