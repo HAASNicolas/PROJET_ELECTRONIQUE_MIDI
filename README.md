@@ -114,3 +114,4 @@ Chaque trame comporte 3 octets, ayant chacun leur bit de start à 0.
 
 ![alt text](Documentations/pot-a-30.png)
 
+On remarque que les curseurs sont espacés de 9 bits et d'une durée de 78us. Ce qui est en accord avec notre programme que nous avons configuré pour émettre à une vitesse de 115200 bauds.
