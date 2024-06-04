@@ -61,7 +61,7 @@ Notre projet consiste en la création d’un contrôleur MIDI, un dispositif él
 
 La conception du contrôleur inclut l’intégration de plusieurs capteurs pour détecter les actions de l’utilisateur, qui sont ensuite traduites en signaux MIDI. Ces signaux sont transmis à un ordinateur ou un autre appareil musical via une interface MIDI, permettant un contrôle en temps réel de la musique.
 
-Le développement de ce contrôleur MIDI inclut la mise en œuvre d’une carte électronique centrale, qui gère les signaux provenant des différents capteurs, ainsi qu’une interface de sortie pour la communication avec les appareils externes. Le schéma ci-dessous illustre le principe général.
+Le développement de ce contrôleur MIDI inclut la mise en œuvre d’une carte électronique centrale, qui gère les signaux provenant des différents capteurs, ainsi qu’une interface de sortie pour la communication avec les appareils externes.
 
 ## objectif
 
@@ -143,3 +143,11 @@ On remarque que les curseurs sont espacés de 9 bits et d'une durée de 78us. Ce
 ## Code
 
 ![Diagramme du code](Documentations/diagramme_code.png)
+
+## Les difficultés rencontrées
+
+* Difficulté lors de schéma afain d'avoir les bonnes valeurs des résistances et condensateur.
+* Le routage nous a aussi appris qu'il faut mettre des composants de protections, ainsi que le BMS pour la recharge de la batterie.
+* Difficulté dans le routage, qui nous ont permis d'apprendre les bonnes pratiques.
+* L'USART du STM32 ne voulait pas marché en Half-Duplex, on a donc dû le mettre en Asynchronous. Nous avons donc la broche TX qui ne sert à rien.
+* Difficulté dans le soudage de composants CMS, car ils sont petit, et que on n'avait pas tous déjà soudé.
