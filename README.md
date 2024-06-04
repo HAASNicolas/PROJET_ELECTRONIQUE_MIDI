@@ -91,9 +91,14 @@ Nous cherchons à créer un dispositif qui permette un contrôle précis et effi
 
 
 * cahier des charges 
+![cahier des charges](Documentations/cahier_des_charges.jpeg)
 
 * projet global (shema):
+  
 * shema bloc:
+
+* Planning des séances
+![planning](Documentations/planning.jpeg)
 
 ## PCB 
 
@@ -117,22 +122,22 @@ Nous avons réussi à faire fonctionner la carte, et a lui faire envoyer, via l'
 
 Voici les valeurs que renvoient un des potentiomètres linéaire et un des potentiomètres rond. C'est valeurs doivent être comprise entre 0 et 127, car en MIDI on la code sur 7 bits.
 Sel est le numéro transmis aux 4 MUX analogiques.
-![alt text](Documentations/valeurs_pot_lineaire_et_rond.png)
+![Valeurs des potentiomètres](Documentations/valeurs_pot_lineaire_et_rond.png)
 
 La carte regarde en boucle la valeur des potentiomètres. Si la valeur change, alors une trame MIDI est envoyée.
 
 Comme l'ADC fait 4 conversions à la fois, nous pouvons voir 4 trames MIDI qui ce suivent:
-![alt text](Documentations/pot-a-30-les-4-trames.png)
+![4 trames MIDI](Documentations/pot-a-30-les-4-trames.png)
 
 Chaque trame comporte 3 octets, ayant chacun leur bit de start à 0.
 * Le 1er octet et l'identifiant ici 0x1A
 * Le 2e est le numéro du potentiomètre ici 24
 * Le 3e et dernier est la valeur du potentiomètre (ici 30) codée sur 7 bits (donc le MSB qui se situe à droite est toujours à 0)
 
-![alt text](Documentations/pot-a-30.png)
+![Trame MIDI d'un potentiomètre de valeur 30](Documentations/pot-a-30.png)
 
 On remarque que les curseurs sont espacés de 9 bits et d'une durée de 78us. Ce qui est en accord avec notre programme que nous avons configuré pour émettre à une vitesse de 115200 bauds.
 
 ## Code
 
-![alt text](Documentations/diagramme_code.png)
+![Diagramme du code](Documentations/diagramme_code.png)
