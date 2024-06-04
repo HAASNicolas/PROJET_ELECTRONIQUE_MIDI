@@ -146,8 +146,8 @@ On remarque que les curseurs sont espacés de 9 bits et d'une durée de 78us. Ce
 
 ## Les difficultés rencontrées
 
-* Difficulté lors de schéma afain d'avoir les bonnes valeurs des résistances et condensateur.
+* Lors de schéma afain d'avoir les bonnes valeurs des résistances et condensateurs.
 * Le routage nous a aussi appris qu'il faut mettre des composants de protections, ainsi que le BMS pour la recharge de la batterie.
-* Difficulté dans le routage, qui nous ont permis d'apprendre les bonnes pratiques.
-* L'USART du STM32 ne voulait pas marché en Half-Duplex, on a donc dû le mettre en Asynchronous. Nous avons donc la broche TX qui ne sert à rien.
-* Difficulté dans le soudage de composants CMS, car ils sont petit, et que on n'avait pas tous déjà soudé.
+* Dans le routage, qui nous ont permis d'apprendre les bonnes pratiques.
+* L'USART du STM32 ne voulait pas fonctionner en Half-Duplex, on a donc dû le mettre en Asynchronous. Nous avons donc la broche TX qui ne sert à rien.
+* Pour le soudage de composants CMS, car il faut être précis.
