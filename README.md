@@ -99,7 +99,7 @@ Nous cherchons à créer un dispositif qui permette un contrôle précis et effi
 
 Dans cette partie de ce rapport, nous donnerons un aperçu complet de l'architecture et des composants du PCB de ce contrôleur MIDI.
 On cherchera donc ici à comprendre le rôle des composants sur ce PCB et leur disposition.
-Concernant le Microcontrôleur, ici le STM 32 KBTX, il est le centre du contrôleur MIDI. Son but ici est de gérer les entrées des boutons et potentiomètres, de traite ces informations et d’envoyer les messages MIDI appropriés via les interfaces MIDI ou USB.
+Concernant le Microcontrôleur, ici le STM 32 KBTX, il est le centre du contrôleur MIDI. Son but ici est de gérer les entrées venues des boutons et potentiomètres, de traiter ces informations et d’envoyer les messages MIDI appropriés via les interfaces MIDI ou USB.
 
 Quant aux Régulateurs de tension, ils assurent une tension stable pour alimenter les différents composants du circuit, par exemple, fournir 5V pour le microcontrôleur et 3.3V pour certains capteurs ou circuits.
 
@@ -109,11 +109,11 @@ Le Connecteur MIDI utilisé ici va servir d’interface afin de connecter le con
 
 Les Traces, Les lignes rouges et bleues sur le schéma représentent les connexions électriques entre les composants. Les rouges sont sur la couche supérieure du PCB, et les bleues sur la couche inférieure. Elles sont connectées entre les différentes couches du PCB à l’aide des Vias, qui assurent ainsi une interconnexion entre les couches du PCB. Les potentiomètres, eux, capturent les entrées de l'utilisateur. Chaque potentiomètre envoie en effet un signal spécifique au microcontrôleur.
 
-En outre, Le microcontrôleur central gère les entrées des boutons et les interfaces MIDI/USB. Les régulateurs de tension, condensateurs et résistances assurent la stabilité du circuit et les connecteurs MIDI et USB permettent la communication avec d'autres dispositifs MIDI et des ordinateurs.
+En outre, Le microcontrôleur central gère les entrées venues des boutons et les interfaces MIDI/USB. Les régulateurs de tension, condensateurs et résistances assurent la stabilité du circuit et les connecteurs MIDI et USB permettent la communication avec d'autres dispositifs MIDI et des ordinateurs.
 En résumé, lorsqu'on modifie la position d’un potentiomètre du contrôleur MIDI, le microcontrôleur détecte ce changement et identifie le potentiomètre en question. Il génère ensuite un message MIDI avec les informations appropriées (comme la note et la vélocité). Ce message est transmis soit via le connecteur MIDI DIN à d'autres appareils MIDI, soit via USB à un ordinateur.
 
 ## Résultats
-Nous avons réussi à faire fonctionner la carte.
+Nous avons réussi à faire fonctionner la carte, et a lui faire envoyer, via l'USART, des trames MIDI correspondants aux valeurs des potentiomètres.
 
 Voici les valeurs que renvoient un des potentiomètres linéaire et un des potentiomètres rond. C'est valeurs doivent être comprise entre 0 et 127, car en MIDI on la code sur 7 bits.
 Sel est le numéro transmis aux 4 MUX analogiques.
