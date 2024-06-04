@@ -99,11 +99,10 @@ Nous cherchons à créer un dispositif qui permette un contrôle précis et effi
 * Schéma global du projet
 
   ![Schéma global du projet](Documentations/schéma_global.png)
-  
-* schéma bloc:
-
 
 ## PCB 
+
+![PCB](Documentations/PCB.png)
 
 Dans cette partie de ce rapport, nous donnerons un aperçu complet de l'architecture et des composants du PCB de ce contrôleur MIDI.
 On cherchera donc ici à comprendre le rôle des composants sur ce PCB et leur disposition.
